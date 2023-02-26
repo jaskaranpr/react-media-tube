@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, RenderResult, fireEvent } from '@testing-library/react';
 
-import Video from './Video';
+import Video from './VideoPlayer';
 
 
 describe('<Video />', () => {
