@@ -6,4 +6,5 @@ export interface VideoProps {
     width?: string | number;
     height?: string | number;
     aspectRatio?: number;
+    testId?: string
 }

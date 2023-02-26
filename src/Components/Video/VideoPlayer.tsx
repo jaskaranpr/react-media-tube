@@ -11,6 +11,7 @@ const VideoPlayer: FC<VideoProps> = ({
   width,
   height,
   aspectRatio,
+  testId
 }) => {
   return (
     <div>
@@ -20,6 +21,7 @@ const VideoPlayer: FC<VideoProps> = ({
         poster="/assets/poster.png"
         src={src}
         controls
+        data-testid={testId}
       />
       <p>{src}</p>
     </div>
